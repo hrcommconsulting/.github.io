@@ -47,7 +47,7 @@ h4 {
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #425BB5;
+    color: #00c0ff;
     margin-left: 40px;
     font-weight: 700;
 }
@@ -59,7 +59,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #425BB5;
+    background: #00c0ff;
     top: 9px;
 }
 
@@ -250,7 +250,7 @@ nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #444;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -269,12 +269,12 @@ a:focus {
 }
 
 a:hover {
-    color: #425BB5;
+    color: #00c0ff;
     text-decoration: none;
 }
 
 a.active {
-    color: #425BB5;
+    color: #00c0ff;
 }
 
 
@@ -295,6 +295,16 @@ a.active {
 .disply-table {
     display: table;
     height: 100vh;
+}
+.home-logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	position: relative;
+    top: 50%;
+	transform: translateY(-10%);
+  
 }
 
 
@@ -319,6 +329,73 @@ a.active {
     z-index: 1
 }
 
+/* buisness selection
+==================================================*/
+
+#buis-select {
+    padding: 100px 0;
+    background: #f3f3f3
+}
+
+.buis-column{
+    width: 100%;
+    
+}
+.buis-column div{
+    width: 25%;
+    float: left;
+    margin: 2.5%;
+}
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  width: 30%;
+  background: #fff;
+  
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+  padding: 2px 16px;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.card-img {
+  border-radius: 5px 5px 0 0;
+}
+
+/*small selection
+==================================================*/
+
+#buis-small{
+    padding:100px 0;
+    background: #fff;
+}
+
+/*medium selection
+==================================================*/
+
+#buis-med{
+    padding:100px 0;
+    background: #fff;
+}
+
+/*large selection
+==================================================*/
+
+#buis-large{
+    padding:100px 0;
+    background: #fff;
+}
 
 /* experience section
 ==================================================*/
@@ -628,6 +705,8 @@ a.active {
 }
 
 
+
+
 /* contact
 ==================================================*/
 
@@ -710,7 +789,7 @@ fieldset {
     font-size: 15px;
     text-align: center;
     padding: 10px;
-    border: 2px solid #425BB5;
+    border: 2px solid #00c0ff;
     margin-top: 10px;
 }
 
@@ -724,7 +803,7 @@ fieldset {
 }
 
 #submit {
-    background-color: #425BB5;
+    background-color: #00c0ff;
     color: #fff;
     padding: 10px 40px;
     border-radius: 0;
@@ -753,7 +832,7 @@ fieldset {
 }
 
 .social li a:hover {
-    color: #425BB5;
+    color: #00c0ff;
 }
 
 

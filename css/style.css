@@ -332,16 +332,16 @@ a.active {
 /* buisness selection
 ==================================================*/
 
-#buis-select {
+#card-select {
     padding: 100px 0;
     background: #f3f3f3
 }
 
-.buis-column{
+.card-column{
     width: 100%;
     
 }
-.buis-column div{
+.card-column div{
     width: 25%;
     float: left;
     margin: 2.5%;
@@ -376,7 +376,7 @@ a.active {
 /*small selection
 ==================================================*/
 
-#buis-small{
+#hr{
     padding:100px 0;
     background: #fff;
 }
@@ -384,7 +384,7 @@ a.active {
 /*medium selection
 ==================================================*/
 
-#buis-med{
+#train{
     padding:100px 0;
     background: #fff;
 }
@@ -392,7 +392,7 @@ a.active {
 /*large selection
 ==================================================*/
 
-#buis-large{
+#comm{
     padding:100px 0;
     background: #fff;
 }

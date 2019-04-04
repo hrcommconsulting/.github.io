@@ -69,11 +69,29 @@
                 <h4>01</h4>
                 <h1 class="size-50">About</h1>
                 <div class="h-50"></div>
-                p>Corporis ita confidam uti age habuerim assignem sequatur. Sequeretur caligantis ita perfectius praecipuis permiscent ego mei. Perire qui manebo istius habens uti. Id inde post alio huic sive si du. Lumini videor hac corpus aut nemine cui cur. Ne vi humanum to ea manibus quandiu fallant revolvo. Callidus id dubitare posuisse ei de imperiti.</p>
+				
+				<div id="about_text">Hello</div>
+				<!--
+				<script src="D:/hrcommconsult/js/jquery.js">
+				$(document).ready( function() {
+    
+					$("#about_text").load("D:/hrcommconsult/js/about.html");
+					alert("Your book is overdue.");
+				});
+				</script>
+				-->
+				<script>
 
-<p>At ad momentis secundum cogitare illasque ad is periculi. Ac dispari organis is eo liquida si vigilia ignotas aetatem. Delusisse spontaneo immittere explorant ea medicinam et examinavi. At articulo ac veritate cognosci habendum ii tangitur physicae. Deus plus fuse vi ii et an nova. Ullum an clara se tamen coeco. At funditus ut exemplum existens profecta potuisse imaginer. Ecce ob nisi gi ipso actu hinc soni et. Ac si praesenti et id distingui extitisse. Venturum figmenta indiciis id in chimerae se arbitror at.</p>
-                <p></p>
-                
+					fetch("http://hrcommconsulting.com/about.html" /*, options */)
+					.then((response) => response.text())
+					.then((html) => {
+						document.getElementById("about_text").innerHTML = html;
+					})
+					.catch((error) => {
+						console.warn(error);
+					});
+				
+				</script>
                 <div class="h-50"></div>
             </div>
             <!--

@@ -74,7 +74,7 @@
 
 				<script>
 
-					fetch("https://hrcommconsulting.com/about.html" , {mode: 'cors'})
+					fetch("https://hrcommconsulting.com/about.html" , {mode: 'no-cors'})
 					.then((response) => response.text())
 					.then((html) => {
 						document.getElementById("about_text").innerHTML = html;

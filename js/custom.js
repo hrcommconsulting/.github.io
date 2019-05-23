@@ -141,9 +141,9 @@ $(document).ready(function () {
             },
             submitHandler: function (form) {
                 $(form).ajaxSubmit({
-                    type: "POST",
-                    data: $(form).serialize(),
-                    url: "https://formspree.io/calvinochs1@gmail.com",
+                    //type: "POST",
+                    //data: $(form).serialize(),
+                    //url: "https://formspree.io/calvinochs1@gmail.com",
                     success: function () {
                         $('#contact :input').attr('disabled', 'disabled');
                         $('#contact').fadeTo("slow", 1, function () {

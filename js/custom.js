@@ -140,24 +140,24 @@ $(document).ready(function () {
                 }
             },
             submitHandler: function (form) {
-                //$(form).ajaxSubmit({
-                   // type: "POST",
-                    //data: $(form).serialize(),
-                    //url: "https://formspree.io/calvinochs1@gmail.com",
-                    //success: function () {
+                $(form).ajaxSubmit({
+                    type: "POST",
+                    data: $(form).serialize(),
+                    active: "https://formspree.io/calvinochs1@gmail.com",
+                    success: function () {
                         $('#contact :input').attr('disabled', 'disabled');
                         $('#contact').fadeTo("slow", 1, function () {
                             $(this).find(':input').attr('disabled', 'disabled');
                             $(this).find('label').css('cursor', 'default');
                             $('#success').fadeIn();
                         });
-                    //},
-                    //error: function () {
-                     //   $('#contact').fadeTo("slow", 1, function () {
-                     //       $('#error').fadeIn();
-                    //    });
-                    //}
-                //});
+                    },
+                    error: function () {
+                        $('#contact').fadeTo("slow", 1, function () {
+                            $('#error').fadeIn();
+                        });
+                    }
+                });
             }
         });
 

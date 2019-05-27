@@ -143,7 +143,7 @@ $(document).ready(function () {
                 $(form).ajaxSubmit({
                     type: "POST",
                     data: $(form).serialize(),
-                    active: "https://formspree.io/calvinochs1@gmail.com",
+                    url: "//formspree.io/calvinochs1@gmail.com",
                     success: function () {
                         $('#contact :input').attr('disabled', 'disabled');
                         $('#contact').fadeTo("slow", 1, function () {

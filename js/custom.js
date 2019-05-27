@@ -139,6 +139,7 @@ $(document).ready(function () {
                     required: "This field is required"
                 }
             },
+			/*
             submitHandler: function (form) {
                 $(form).ajaxSubmit({
                     method: "POST",
@@ -158,8 +159,8 @@ $(document).ready(function () {
                         });
                     }
                 });
-            }
+            
         });
-
+		*/
     });
 });

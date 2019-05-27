@@ -140,6 +140,7 @@ $(document).ready(function () {
                 }
             },
 			/*
+			is this needed
             submitHandler: function (form) {
                 $(form).ajaxSubmit({
                     method: "POST",

@@ -39,7 +39,7 @@ font-family: 'Open Sans', sans-serif;
 h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
-    line-height: 70px;
+    line-height: 50px;
 }
 
 h4 {
@@ -75,7 +75,7 @@ body {
 
 .size-50 {
     font-size: 50px;
-    line-height: 50px
+    line-height: 25px
 }
 
 .h-50 {
@@ -312,7 +312,7 @@ a.active {
 ==================================================*/
 
 #about {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .about-img-div img {
@@ -377,7 +377,7 @@ a.active {
 ==================================================*/
 
 #hr{
-    padding:100px 0;
+    padding:50px 0;
     background: #fff;
 }
 
@@ -385,7 +385,7 @@ a.active {
 ==================================================*/
 
 #train{
-    padding:100px 0;
+    padding:50px 0;
     background: #fff;
 }
 
@@ -393,7 +393,7 @@ a.active {
 ==================================================*/
 
 #comm{
-    padding:100px 0;
+    padding:50px 0;
     background: #fff;
 }
 
@@ -401,7 +401,7 @@ a.active {
 ==================================================*/
 
 #experience {
-    padding: 100px 0;
+    padding: 50px 0;
     background: #f3f3f3
 }
 
